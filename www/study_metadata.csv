@@ -1,0 +1,15 @@
+Cancer,TCGA abbreviation,Primary cell model,Cell model name
+Breast,BRCA,Human mammary epithelial cells,HMEC
+Colon,COAD,Human primary colonic epithelial cells,Colon
+Endometrial,UCEC,Human endometrial epithelial cells,Endometrial
+Esophageal,ESCA,Human primary esophageal epithelial cells,Esophageal
+Glioblastoma,GBM,Normal human astrocytes,Astrocyte
+Kidney,KIRC,Human primary proximal tubular epithelial cells,Renal
+Lung,LUAD,Human primary bronchial/tracheal epithelial cells,Airway
+Melanoma,SKCM,Neonatal foreskin derived melanocytes,MC
+Non-melanoma skin cancer,KC,Neonatal foreskin derived keratinocytes,KC
+Ovarian,OVCA,Human primary ovarian epithelial cells,Ovarian
+Pancreatic,PAAD,Human primary pancreatic epithelial cells,Pancreatic
+Prostate,PRAD,Human primary prostate epithelial cells,Prostate
+Thyroid,THCA,Human primary thyroid epithelial cells,Thyroid
+,,,

@@ -1,0 +1,19 @@
+Column,Details
+Tested SNP,RefSNP ID (rsID) of SNPs tested if they were in linkage disequilibrium with a GWAS SNP linked to a cancer and are found in DHS peaks in a cell type associated with that cancer
+Reference,reference allele (this is not necessarily the major allele or the protective allele)
+Alternate,alternate allele (this is not necessarily the minor allele or disease risk allele)
+Hit in Cancer Assoc Cell Type,celltype(s) in which alleles are differentially active by MPRA and associated with a relevant cancer by GWAS
+Hit in Any Cell Type,celltype(s) in which alleles are differentially active by MPRA
+Nearest Gene,nearest gene to tested SNP
+Nearby Genes,gene with promoter within 5kb of the tested SNP
+Chromosome,chromosome number in GRCh37
+Position,SNP position in GRCh37
+Lead SNP,rsID of the SNP analyzed in the GWAS study which implicated the locus
+Associated Cancer,cancer type associated with the lead SNP from the GWAS study
+PubMedID,study associated with the GWAS lead SNP
+OR or BETA,the odds ratio or beta associated with the GWAS lead SNP mined from the GWAS catalog
+ptGene GTEx,ptGene for the SNP from GTEx in the tissues corresponding to its GWAS cancer association
+ptGene HiChIP,genes with promoters in contact with the SNP by H3K27Ac HiChIP in cell types corresponding to its GWAS cancer axsociation (Donohue et al. Cell Genomics 2022) 
+ptGene eQTLGen,ptGene for the SNP from eQLTgen
+Tissue GTEx,the tissue in GTEx in which the SNP is a significant eQTL (only those that correspond to its cancer)
+HiChIP Cell Type,the cell type in which the gene noted in ptGene HiCHIP was found
